@@ -16,11 +16,7 @@
 
 ## :dart: Sobre
 
-**Ignite Gym** é um aplicativo mobile para gestão de treinos, desenvolvido durante o bootcamp de especialização em React Native da [Rocketseat](https://www.rocketseat.com.br/).
-
-Através do app, o usuário pode criar uma conta, fazer login e navegar por grupos musculares para descobrir exercícios específicos, com instruções detalhadas de séries e repetições. Também é possível registrar o histórico de treinos realizados por dia, acompanhando a evolução ao longo do tempo.
-
-O projeto teve como foco a aplicação de boas práticas de arquitetura em React Native, incluindo gerenciamento de estado global, validação de formulários, consumo de API e persistência de dados de autenticação.
+Este é o aplicativo móvel do projeto **Ignite Gym**, desenvolvido durante o programa de especialização Ignite da [Rocketseat](https://www.rocketseat.com.br/). A aplicação permite que usuários de uma academia se cadastrem, façam login, visualizem exercícios e registrem seus treinos.
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
@@ -51,6 +47,24 @@ Antes de começar, você precisa ter o [Git](https://git-scm.com) e o [Node.js](
 # Clone este repositório (caso ainda não tenha clonado o projeto principal)
 $ git clone https://github.com/geovaneborba/ignite-gym.git
 
+# Clone a API do projeto (caso ainda não tenha clonado)
+$ git clone https://github.com/geovaneborba/ignite-gym-api.git
+
+# Entre na pasta da API
+$ cd ignite-gym-api
+
+# Instale as dependências
+$ npm install
+
+# Execute as migrations
+$ npm run migrate
+
+# Popule o banco de dados com dados iniciais
+$ npm run seed
+
+# Inicie o servidor de desenvolvimento da API
+$ npm start dev
+
 # Entre na pasta do aplicativo móvel
 $ cd ignite-gym/mobile
 
@@ -67,7 +81,7 @@ Após executar `npm start`, o Metro Bundler será iniciado. Você poderá então
 - Pressionar `a` para abrir em um emulador Android (se configurado).
 - Pressionar `i` para abrir em um simulador iOS (se estiver em um macOS e configurado).
 
-**Importante:** Para que o aplicativo funcione corretamente, a API do projeto deve estar em execução na sua máquina local.
+**Importante:** Este aplicativo móvel é totalmente integrado com a sua API correspondente. Para que todas as funcionalidades do app operem corretamente, a API precisa estar em execução na sua máquina local. Você pode encontrar o repositório da API e as instruções de configuração aqui: [ignite-gym-api](https://github.com/geovaneborba/ignite-gym-api).
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
