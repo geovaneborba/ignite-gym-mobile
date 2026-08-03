@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="Ignite Gym" src="https://github.com/user-attachments/assets/7788bb9f-3b70-4c6b-8e28-a13de5706f33" />
+
 <p align="center">
   <img alt="GitHub top language"  src="https://img.shields.io/github/languages/top/geovaneborba/ignite-gym-mobile?color=4f46e5&style=for-the-badge"> <img alt="GitHub language count"  src="https://img.shields.io/github/languages/count/geovaneborba/ignite-gym-mobile?color=4f46e5&style=for-the-badge">
   <img alt="Licença" src="https://img.shields.io/github/license/geovaneborba/ignite-gym-mobile?color=4f46e5&style=for-the-badge">
